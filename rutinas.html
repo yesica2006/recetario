@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vive Saludable</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>🌿 Vive Saludable</h1>
+    <nav>
+        <a href="#" onclick="mostrarSeccion('inicio')">Inicio</a>
+        <a href="#" onclick="mostrarSeccion('recetas')">Recetas</a>
+        <a href="#" onclick="mostrarSeccion('ejercicio')">Ejercicio</a>
+        <a href="#" onclick="mostrarSeccion('bienestar')">Bienestar</a>
+      
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- Sección por defecto -->
+    <section id="inicio" class="seccion activa">
+      <h2>Bienvenido a Vive Saludable 💚</h2>
+      <p>Tu espacio para aprender a cuidar tu cuerpo, mente y alimentación de forma natural y práctica.</p>
+      <img src="./img/frutas-verduras-colores.webp" alt="Frutas saludables">
+    </section>
+
+    <section id="recetas" class="seccion">
+      <h2>Recetas Saludables 🍲</h2>
+      <p>Encuentra ideas fáciles y deliciosas para cuidar tu cuerpo desde la cocina.</p>
+      <div class="galeria">
+        <img src="./img/ensaladas.jpg" alt="Ensalada fresca">
+        <p>ensalada fresca</p>
+        <img src="./img/jugo verdes.jpg" alt="Batido verde">
+        <p>Batido verde</p>
+        <img src="./img/avena.jpg" alt="Avena con frutas">
+        <p>avena con Frutas</p>
+      </div>
+    </section>
+
+    <section id="ejercicio" class="seccion">
+      <h2>Rutinas de Ejercicio 💪</h2>
+      <p>Muévete y mejora tu energía con ejercicios simples y divertidos.</p>
+      <div class="galeria">
+        <img src="./img/yoga.webp" alt="Yoga en casa">
+        <p>El yoga promueve la conexión entre los movimientos físicos, la respiración y los pensamientos para lograr un estado de equilibrio holístico, y mejora la flexibilidad y calma tu mente</p>
+        <img src="./img/correr.jpg" alt="Correr al aire libre">
+        <p>Correr ayuda tanto a la salud física como mental, mejorando el sistema cardiovascular, fortaleciendo músculos y huesos, y promoviendo la pérdida de peso. También es beneficioso para la salud mental, ya que puede reducir el estrés, la ansiedad y la depresión, y mejorar el estado de ánimo, la autoestima y el sueño. </p>
+        <img src="./img/pesas.jpg" alt="Ejercicios con pesas">
+        <p>Las pesas ayudan a aumentar la fuerza y la masa muscular, mejorar la densidad ósea y acelerar el metabolismo, lo que contribuye a perder grasa y controlar el peso. Además, mejoran la salud mental, reduciendo el estrés y la ansiedad, y previenen enfermedades crónicas y la osteoporosis. </p>
+      </div>
+    </section>
+
+    <section id="bienestar" class="seccion">
+      <h2>Bienestar Integral 🌸</h2>
+      <p>Descubre consejos para cuidar tu mente, descansar mejor y vivir en equilibrio.</p>
+      <div class="galeria">
+        <img src="./img/meditacion.jpg" alt="Meditación">
+        <img src="./img/habitos-saludables.jpg" alt="Descanso saludable">
+        <img src="./img/salud mental.jpg" alt="Salud mental">
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>🌿 Vive Saludable – Tu bienestar empieza hoy 💚</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
